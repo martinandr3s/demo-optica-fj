@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Óptica F&amp;J | Examen de la vista y lentes en el centro de Reynosa (propuesta)</title>
+<meta name="description" content="Óptica en Porfirio Díaz 940-A, centro de Reynosa. Examen visual con optometristas de más de 25 años de experiencia, lentes graduados, lentes de contacto y armazones con garantía.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+/* Idea: un catálogo de atelier; fotos reales de la óptica a sangre, reglas finas y una sola voz tipográfica */
+:root{
+  --ink:#000000; --white:#FFFFFF; --sand:#EBE6DC; --muted:#5E5E5E; --rule:#B3B3B3;
+  --red:#B81F2A; --red-dark:#8F1720; --blue:#0F6FB5; --r:0px;
+  --sans:"Inter",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--white);color:var(--ink);font-family:var(--sans);font-weight:400;font-size:17px;line-height:1.55}
+img{max-width:100%;display:block}
+a{color:var(--ink)}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+h1,h2,h3{font-weight:400;line-height:1.05;margin:0;letter-spacing:-.02em;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding-left:16px;padding-right:16px}
+.label{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase}
+
+.proposal{background:var(--ink);color:#fff;font-size:14px}
+.proposal .wrap{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
+.proposal button{background:#fff;color:#000;border:0;padding:6px 12px;font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.06em;cursor:pointer}
+
+header.top{position:sticky;top:0;z-index:20;background:var(--white);border-bottom:1px solid var(--ink)}
+.top .wrap{display:flex;align-items:center;gap:18px;min-height:68px}
+.brand img{height:46px;width:auto}
+nav.main{display:flex;gap:22px;margin-left:auto}
+nav.main a{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:6px 0;border-bottom:1px solid transparent}
+nav.main a:hover{border-bottom-color:var(--ink)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:10px 20px;font-family:var(--mono);font-size:13px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;line-height:1.2;text-align:center;border-radius:0}
+.btn:hover{background:var(--ink);color:#fff}
+.btn-red{background:var(--red);border-color:var(--red);color:#fff}
+.btn-red:hover{background:var(--red-dark);border-color:var(--red-dark)}
+
+.hero{border-bottom:1px solid var(--ink)}
+.hero .wrap{display:grid;grid-template-columns:1fr 1fr;gap:0;padding:0}
+.hero .copy{padding:64px 40px 56px 16px;display:flex;flex-direction:column;gap:22px;justify-content:center}
+.hero h1{font-size:clamp(46px,6.6vw,96px)}
+.hero p.lead{font-size:20px;color:var(--muted);max-width:28em}
+.hero .ctas{display:flex;gap:10px;flex-wrap:wrap}
+.hero figure{margin:0;border-left:1px solid var(--ink);min-height:520px}
+.hero figure img{width:100%;height:100%;object-fit:cover}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--ink)}
+.facts div{padding:18px 16px;border-right:1px solid var(--ink);display:grid;gap:4px}
+.facts div:last-child{border-right:0}
+.facts b{font-weight:400;font-size:20px}
+.facts span{color:var(--muted);font-size:15px}
+
+section.block{padding:84px 0}
+section.sand{background:var(--sand)}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;border-bottom:1px solid var(--ink);padding-bottom:16px;margin-bottom:28px}
+.sec-head h2{font-size:clamp(36px,4.6vw,60px)}
+.sec-head p{color:var(--muted);max-width:30em}
+
+.svc{display:grid;grid-template-columns:repeat(4,1fr);border-left:1px solid var(--ink)}
+.svc article{border-right:1px solid var(--ink);padding:22px 18px;display:flex;flex-direction:column;gap:12px}
+.svc .num{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.svc h3{font-size:28px}
+.svc p{color:var(--muted);font-size:16px}
+
+.gallery{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:auto auto;gap:16px}
+.gallery figure{margin:0;display:grid;gap:8px}
+.gallery figure:first-child{grid-row:span 2}
+.gallery img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3}
+.gallery figure:first-child img{aspect-ratio:auto;min-height:420px}
+.gallery figcaption{font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+
+.team{display:grid;grid-template-columns:340px 1fr;gap:40px;align-items:center}
+.team img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:top;background:var(--white)}
+.team h3{font-size:clamp(34px,4vw,52px);margin:8px 0 14px}
+.team p{color:var(--muted);max-width:34em}
+.guarantee{margin-top:26px;border:1px solid var(--ink);padding:20px;display:grid;gap:6px;max-width:34em;background:var(--white)}
+.guarantee b{font-weight:400;font-size:22px}
+.guarantee span{color:var(--muted)}
+
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.contact dl{margin:0;display:grid;gap:0;border-top:1px solid var(--ink)}
+.contact dl div{display:grid;grid-template-columns:130px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--rule)}
+.contact dt{font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding-top:4px}
+.contact dd{margin:0;font-size:18px;overflow-wrap:anywhere}
+.status{display:inline-flex;align-items:center;gap:8px}
+.status i{width:9px;height:9px;border-radius:50%;background:#8C8C8C;flex:none}
+.status.is-open i{background:#1F8A4C}
+form.qf{border:1px solid var(--ink);padding:24px;display:grid;gap:14px;background:var(--white)}
+.qf h3{font-size:30px}
+.qf label{display:block;font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.qf input,.qf select,.qf textarea{width:100%;font:inherit;font-size:16px;padding:10px 12px;border:1px solid var(--ink);border-radius:0;background:var(--white);color:var(--ink)}
+.qf .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.qf .note{font-size:14px;color:var(--muted)}
+.qf .err{color:var(--red-dark);font-size:14px}
+
+footer{border-top:1px solid var(--ink);padding:30px 0;font-size:15px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+footer img{height:40px;width:auto}
+
+dialog{border:1px solid var(--ink);padding:0;border-radius:0;width:min(600px,calc(100vw - 32px));max-height:calc(100vh - 32px);color:var(--ink)}
+dialog::backdrop{background:rgba(0,0,0,.55)}
+.dh{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 20px;border-bottom:1px solid var(--ink);position:sticky;top:0;background:var(--white)}
+.dh h2{font-size:28px}
+.x{background:none;border:0;font-size:28px;line-height:1;cursor:pointer;width:44px;height:44px;color:var(--ink)}
+.db{padding:16px 20px 22px}
+.db ol{margin:0;padding-left:20px;display:grid;gap:12px}
+.db b{display:block;font-weight:400;font-size:18px}
+.db span{color:var(--muted);font-size:15px}
+
+@media (max-width:1020px){
+  nav.main{display:none}
+  .top .btn-red{margin-left:auto}
+  .svc{grid-template-columns:1fr 1fr;border-top:1px solid var(--ink)}
+  .svc article{border-bottom:1px solid var(--ink)}
+}
+@media (max-width:820px){
+  .hero .wrap,.contact,.team{grid-template-columns:1fr}
+  .hero .copy{padding:36px 16px 40px}
+  .hero figure{border-left:0;border-top:1px solid var(--ink);min-height:0}
+  .hero figure img{aspect-ratio:4/3}
+  .gallery{grid-template-columns:1fr}
+  .gallery figure:first-child{grid-row:auto}
+  .gallery figure:first-child img{min-height:0;aspect-ratio:4/3}
+  .team img{max-width:340px}
+  section.block{padding:56px 0}
+}
+@media (max-width:540px){
+  .brand img{height:38px}
+  .facts{grid-template-columns:1fr}
+  .facts div{border-right:0;border-bottom:1px solid var(--ink)}
+  .facts div:last-child{border-bottom:0}
+  .svc{grid-template-columns:1fr}
+  .qf .row{grid-template-columns:1fr}
+  .contact dl div{grid-template-columns:1fr;gap:2px}
+  form.qf{padding:18px}
+  .hero .ctas .btn{width:100%}
+  .top .btn-red{padding:10px 14px}
+}
+</style>
+<style id="refero-theme">
+/* fonts: family=Inter:wght@400&family=JetBrains+Mono:wght@400 */
+/* Estilo Refero: Glein, "atelier lookbook on warm linen". Fotografía real a sangre, reglas finas negras, un solo peso (400) donde la jerarquía es solo tamaño, voz monoespaciada para etiquetas y botones, banda de arena cálida y esquinas rectas. El rojo del logo de F&J es el único color, en el botón principal. */
+:root{
+  --ink:#000000; --white:#FFFFFF; --sand:#EBE6DC; --muted:#5E5E5E; --rule:#B3B3B3;
+  --red:#B81F2A; --red-dark:#8F1720; --r:0px;
+  --sans:"Inter",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+h1,h2,h3,b{font-weight:400!important}
+.hero h1{letter-spacing:-.035em}
+.btn,.qf input,.qf select,.qf textarea,dialog{border-radius:0}
+img{border-radius:0}
+</style>
+</head>
+<body>
+
+<div class="proposal" role="note">
+  <div class="wrap">
+    <span>Vista previa de rediseño propuesta para Óptica F&amp;J. No es el sitio oficial.</span>
+    <button type="button" id="openChanges">Ver qué mejoramos</button>
+  </div>
+</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio"><img src="https://opticafj.com/content/dentist4/images/retina-optica.png" alt="Óptica F&amp;J" width="76" height="46"></a>
+    <nav class="main" aria-label="Principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#optica">La óptica</a>
+      <a href="#contacto">Horario y ubicación</a>
+    </nav>
+    <a class="btn btn-red" href="https://wa.me/528992544175?text=Hola%2C%20quiero%20agendar%20un%20examen%20de%20la%20vista%20en%20%C3%93ptica%20F%26J" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+</header>
+
+<main id="inicio">
+<section class="hero">
+  <div class="wrap">
+    <div class="copy">
+      <p class="label">Óptica · Centro de Reynosa</p>
+      <h1>Cuidamos tu visión.</h1>
+      <p class="lead">Examen visual con optometristas de más de 25 años de experiencia y lentes graduados hechos por nosotros. Armazones de las mejores marcas, con garantía.</p>
+      <div class="ctas">
+        <a class="btn btn-red" href="https://wa.me/528992544175?text=Hola%2C%20quiero%20agendar%20un%20examen%20de%20la%20vista%20en%20%C3%93ptica%20F%26J" target="_blank" rel="noopener">Agendar mi examen</a>
+        <a class="btn" href="tel:+528992544175">Llamar 899 254 4175</a>
+      </div>
+    </div>
+    <figure><img src="https://opticafj.com/content/dentist4/images/11.png" alt="Fachada de Óptica F&amp;J en Porfirio Díaz 940-A" width="780" height="891"></figure>
+  </div>
+  <div class="wrap facts">
+    <div><b>+25 años</b><span>de experiencia de nuestros optometristas</span></div>
+    <div><b>Fabricantes</b><span>de tus lentes graduados</span></div>
+    <div><b>Garantía</b><span>de 15 días contra defectos de fábrica o graduación</span></div>
+  </div>
+</section>
+
+<section class="block" id="servicios">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Servicios</h2>
+      <p>Todo para tu vista en un solo lugar, del examen a la entrega de tus lentes.</p>
+    </div>
+    <div class="svc">
+      <article><span class="num">01</span><h3>Examen visual</h3><p>Con optometristas profesionales, para graduar con certeza tus lentes o tus lentes de contacto.</p></article>
+      <article><span class="num">02</span><h3>Lentes graduados</h3><p>Somos fabricantes: puedes confiar en que tu graduación es la correcta.</p></article>
+      <article><span class="num">03</span><h3>Lentes de contacto</h3><p>Somos distribuidores de marcas seleccionadas y de la máxima calidad.</p></article>
+      <article><span class="num">04</span><h3>Armazones</h3><p>Amplia variedad de las mejores marcas, todos garantizados.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="block sand" id="optica">
+  <div class="wrap">
+    <div class="sec-head"><h2>La óptica</h2><p>Porfirio Díaz 940-A, en el centro de Reynosa.</p></div>
+    <div class="gallery">
+      <figure><img src="https://opticafj.com/images/pro4.png" alt="Interior de la óptica con exhibidores de armazones" loading="lazy" width="780" height="595"><figcaption>Sala de armazones</figcaption></figure>
+      <figure><img src="https://opticafj.com/images/pro5.png" alt="Consultorio de examen visual" loading="lazy" width="1600" height="780"><figcaption>Consultorio de optometría</figcaption></figure>
+      <figure><img src="https://opticafj.com/content/dentist4/images/op1.jpg" alt="Equipo para examen de la vista" loading="lazy" width="780" height="1103"><figcaption>Equipo de examen</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap team">
+    <img src="https://opticafj.com/images/pro6.png" alt="Olga Medina, optometrista" loading="lazy" width="780" height="833">
+    <div>
+      <p class="label">Nuestro personal</p>
+      <h3>Olga Medina, optometrista profesional</h3>
+      <p>Con más de 25 años de experiencia en optometría y óptica en general, te ayuda con todas tus necesidades visuales.</p>
+      <div class="guarantee"><b>Tus lentes tienen garantía</b><span>Hasta 15 días después de la entrega contra defectos de fábrica o de graduación.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="block sand" id="contacto">
+  <div class="wrap contact">
+    <div>
+      <div class="sec-head" style="margin-bottom:0;border-bottom:0"><h2>Horario y ubicación</h2></div>
+      <dl>
+        <div><dt>Estado</dt><dd><span class="status" id="status" aria-live="polite"><i aria-hidden="true"></i><span id="statusText">Horario</span></span></dd></div>
+        <div><dt>Horario</dt><dd>Lunes a viernes de 9:00 a 19:00<br>Sábado de 9:00 a 17:00</dd></div>
+        <div><dt>Dirección</dt><dd>Porfirio Díaz 940-A, Zona Centro, C.P. 88500, Reynosa, Tamps. <a href="https://maps.google.com/?q=Porfirio+Diaz+940-A,+Zona+Centro,+Reynosa,+Tamaulipas" target="_blank" rel="noopener">Cómo llegar</a></dd></div>
+        <div><dt>Teléfono</dt><dd><a href="tel:+528992544175">899 254 4175</a></dd></div>
+        <div><dt>Correo</dt><dd><a href="mailto:contacto@opticafj.com">contacto@opticafj.com</a></dd></div>
+      </dl>
+    </div>
+    <form class="qf" id="qf" novalidate>
+      <h3>Aparta tu examen</h3>
+      <div class="row">
+        <div><label for="qName">Nombre</label><input id="qName" autocomplete="name" required></div>
+        <div><label for="qDay">Día que prefieres</label><input id="qDay" type="date"></div>
+      </div>
+      <div><label for="qWhat">Me interesa</label>
+        <select id="qWhat"><option>Examen de la vista</option><option>Lentes graduados</option><option>Lentes de contacto</option><option>Solo armazón</option></select>
+      </div>
+      <button class="btn btn-red" type="submit">Enviar por WhatsApp</button>
+      <p class="err" id="qErr" role="alert" hidden>Escribe tu nombre para apartar tu examen.</p>
+      <p class="note">Se abre WhatsApp con tu mensaje listo para la óptica.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="https://opticafj.com/content/dentist4/images/retina-optica.png" alt="Óptica F&amp;J" width="66" height="40">
+    <span>Porfirio Díaz 940-A, Centro, Reynosa · <a href="tel:+528992544175">899 254 4175</a></span>
+  </div>
+</footer>
+
+<dialog id="changes" aria-labelledby="cT">
+  <div class="dh"><h2 id="cT">Qué mejoramos</h2><button class="x" type="button" data-close aria-label="Cerrar">×</button></div>
+  <div class="db">
+    <ol>
+      <li><b>Cifras que coinciden</b><span>La portada actual dice "más de 1000 clientes" y la página Nosotros dice "más de 700". Aquí solo quedan datos que no se contradicen.</span></li>
+      <li><b>Horario en español</b><span>El pie de página dice "Saturday 9:00 AM - 17:00 PM" y "19:00 PM".</span></li>
+      <li><b>Sin fotos de plantilla</b><span>Los testimonios de "Leticia Perez" y "Anthony Perez" usan fotos de la plantilla de un dentista (archivos "dentist4-home-pic"). Un cliente que lo note desconfía de todo lo demás.</span></li>
+      <li><b>Fotos reales al frente</b><span>Su fachada, su sala y su consultorio, en lugar de la foto de banco de imágenes de la portada.</span></li>
+      <li><b>WhatsApp para apartar examen</b><span>Hoy no hay forma de escribirles por WhatsApp desde el sitio.</span></li>
+      <li><b>Mejor en Google</b><span>Todas las páginas se llaman solo "Optica F&amp;J", sin descripción ni título principal.</span></li>
+      <li><b>Textos corregidos</b><span>"haste que vemos mejor", "uno un problema al enviar el correo", "Zone Centro".</span></li>
+    </ol>
+  </div>
+</dialog>
+
+<script>
+// Abierto ahora: L-V 9:00-19:00, S 9:00-17:00 (hora de Reynosa)
+(function(){
+  const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Matamoros" }));
+  const d = now.getDay(), m = now.getHours() * 60 + now.getMinutes();
+  const h = d === 0 ? null : d === 6 ? [540, 1020] : [540, 1140];
+  const open = !!h && m >= h[0] && m < h[1];
+  const hhmm = x => `${Math.floor(x / 60)}:${String(x % 60).padStart(2, "0")}`;
+  document.getElementById("status").classList.toggle("is-open", open);
+  document.getElementById("statusText").textContent = open ? `Abierto hasta las ${hhmm(h[1])}` : "Cerrado ahora";
+})();
+
+document.getElementById("qf").addEventListener("submit", e => {
+  e.preventDefault();
+  const v = id => document.getElementById(id).value.trim();
+  const err = document.getElementById("qErr");
+  if (!v("qName")) { err.hidden = false; return; }
+  err.hidden = true;
+  const msg = `Hola, soy ${v("qName")}. Me interesa: ${v("qWhat")}.` + (v("qDay") ? ` Prefiero el día ${v("qDay")}.` : "");
+  window.open(`https://wa.me/528992544175?text=${encodeURIComponent(msg)}`, "_blank", "noopener");
+});
+
+const dlg = document.getElementById("changes");
+document.getElementById("openChanges").addEventListener("click", () => dlg.showModal());
+document.querySelector("[data-close]").addEventListener("click", () => dlg.close());
+dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+</script>
+</body>
+</html>
